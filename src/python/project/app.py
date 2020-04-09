@@ -14,7 +14,7 @@ HOME_DIR = os.environ.get('OPENSHIFT_HOMEDIR', os.getcwd())
 @app.route('/', methods=['GET'])
 def model():
     """http://127.0.0.1:8080/?number=16"""
-    number = request.args.get('number', default=2222222222222122, type=int)
+    number = request.args.get('number', default=3333333333333333, type=int)
     return 'The square of {} is {}.'.format(number, power(number))
 
 
