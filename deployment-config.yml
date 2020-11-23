@@ -4,7 +4,7 @@ metadata:
   name: deployment-template
 objects:
   - apiVersion: v1
-    kind: DeploymentConfig
+    kind: Deployment
     metadata:
       generation: 1
       labels:
